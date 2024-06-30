@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Layout</string>
+    <string-array name="sp1">
+        <item>Phong 1</item>
+        <item>Phong 2</item>
+        <item>Phong 3</item>
+    </string-array>
+</resources>

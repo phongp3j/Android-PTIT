@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ktra2</string>
+    <string-array name="phongthi">
+        <item>303-A3</item>
+        <item>G03-A2</item>
+        <item>201-A3</item>
+        <item>605-A2</item>
+    </string-array>
+</resources>

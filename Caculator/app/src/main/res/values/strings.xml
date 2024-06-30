@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Caculator</string>
+    <string-array name="sp">
+        <item>Add</item>
+        <item>Sub</item>
+        <item>Mul</item>
+        <item>Div</item>
+    </string-array>
+</resources>

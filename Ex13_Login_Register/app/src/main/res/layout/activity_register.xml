@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDCDCD"
+    android:gravity="center"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Email"
+        android:padding="8dp"
+        android:background="@drawable/edit_custom"
+       />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Username"
+        android:padding="8dp"
+        android:background="@drawable/edit_custom"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:padding="8dp"
+        android:background="@drawable/edit_custom"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Password again"
+        android:padding="8dp"
+        android:background="@drawable/edit_custom"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:background="@drawable/btn_custom"
+        android:textColor="@color/white"
+        android:id="@+id/bt1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay ve trang dang nhap"
+        android:id="@+id/finish"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#386C73">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcao"
+        android:layout_marginTop="20dp"
+        android:hint="Nhap chieu cao"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtnang"
+        android:layout_marginTop="20dp"
+        android:hint="Nhap can nang"
+        app:layout_constraintTop_toTopOf="@+id/txtcao"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:text="Click me"
+        app:layout_constraintTop_toBottomOf="@+id/txtnang"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

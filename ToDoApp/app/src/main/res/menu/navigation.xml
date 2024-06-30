@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mHomnay"
+        android:icon="@drawable/home"
+        android:title="Hôm Nay"
+        ></item>
+    <item
+        android:id="@+id/mTatca"
+        android:icon="@drawable/calendar_month"
+        android:title="Danh Sách"
+        ></item>
+    <item
+        android:id="@+id/mTimkiem"
+        android:icon="@drawable/search"
+        android:title="Tìm Kiếm"
+        ></item>
+    <item
+        android:id="@+id/mHoso"
+        android:icon="@drawable/user"
+        android:title="Hồ Sơ"
+        ></item>
+</menu>

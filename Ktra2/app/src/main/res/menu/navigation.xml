@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mDanhsach"
+        android:icon="@drawable/ic_today"
+        android:title="Danh Sach"
+        ></item>
+    <item
+        android:id="@+id/mYeuthich"
+        android:icon="@drawable/ic_history"
+        android:title="Thong tin"
+        ></item>
+    <item
+        android:id="@+id/mTimkiem"
+        android:icon="@drawable/ic_statistic"
+        android:title="Tim Kiem"
+        ></item>
+</menu>

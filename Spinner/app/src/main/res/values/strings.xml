@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="sp1">
+        <item>
+            Phong
+        </item>
+        <item>
+            Khanh
+        </item>
+    </string-array>
+</resources>

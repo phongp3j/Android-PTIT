@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string-array name="tinhtrang">
+        <item>Đã Hoàn Thành</item>
+        <item>Đang Làm</item>
+        <item>Trễ Hạn</item>
+    </string-array>
+</resources>

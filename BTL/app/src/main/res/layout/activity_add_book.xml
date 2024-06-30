@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/splash_bg"
+    tools:context=".AddBookActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_lg"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sách"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edTensach"
+        android:background="@drawable/shape_edittext"
+        android:drawableStart="@drawable/baseline_admin_panel_settings_24"
+        android:drawablePadding="10dp"
+        android:hint="Ten Sach"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edMota"
+        android:background="@drawable/shape_edittext"
+        android:drawableStart="@drawable/baseline_admin_panel_settings_24"
+        android:drawablePadding="10dp"
+        android:hint="Gioi Thieu Sach"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Chon Danh Muc"
+        android:background="@drawable/shape_edittext"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:id="@+id/tvDanhmuc"
+        />
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_btnlogin"
+        android:layout_marginTop="10dp"
+        android:text="Select Book From System"
+        android:textColor="@color/white"
+        android:id="@+id/selectBook"
+        />
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_btnlogin"
+        android:layout_marginTop="10dp"
+        android:text="Add Book"
+        android:textColor="@color/white"
+        android:id="@+id/addBook"
+        />
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_btnskip"
+        android:layout_marginTop="10dp"
+        android:text="Cancel"
+        android:textColor="@color/white"
+        android:id="@+id/cancelAddBook"
+        />
+</LinearLayout>
